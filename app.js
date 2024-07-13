@@ -58,8 +58,9 @@ function playGame() {
     for (round; round <= 5; round++) {
         const humanSelection = getHumanChoice();
         const computerSelection = getComputerChoice();
+        console.log("Round " + round)
         playRound(humanSelection, computerSelection);
-        console.log(round)
+        
     }
     console.log("Human Score:" + humanScore);
     console.log("Computer Score:" + computerScore);
