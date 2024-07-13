@@ -5,5 +5,12 @@ function getComputerChoice() {
     else if (randomNo === 2) computerChoice = "paper";
     else if (randomNo === 3) computerChoice = "scissors";
     return computerChoice;
-}
+};
+
+function getHumanChoice() {
+    let humanChoice = prompt("Rock, Paper or Scissors?");
+    return humanChoice;
+};
+
+
 
