@@ -52,19 +52,3 @@ function playRound(humanChoice, computerChoice){
     }
 };
 
-function playGame() {
-    let round = 1;
-
-    for (round; round <= 5; round++) {
-        const humanSelection = getHumanChoice();
-        const computerSelection = getComputerChoice();
-        console.log("Round " + round)
-        playRound(humanSelection, computerSelection);
-        
-    }
-    console.log("Human Score:" + humanScore);
-    console.log("Computer Score:" + computerScore);
-
-};
-
-playGame();
